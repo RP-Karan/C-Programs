@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c, largest_if, largest_ternary;
+    int a, b, c,A,B,C,largest_if, largest_ternary;
 
     // Input
     printf("Enter three numbers: ");
@@ -16,8 +16,12 @@ int main() {
         largest_if = c;
     }
 
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &A, &B, &C);
+
+
     // --- Using conditional (ternary) operator ---
-    largest_ternary = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+    largest_ternary = (A > B) ? ((A > C) ? A : C) : ((B > C) ? B : C);
 
     // Output both results
     printf("Using if:        Largest number is %d\n", largest_if);
