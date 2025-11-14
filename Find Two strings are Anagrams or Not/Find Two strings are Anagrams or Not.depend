@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1763017256 source:/home/ubuntu/Desktop/C Programs/Find Two strings are Anagrams or Not/main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
